@@ -1,10 +1,187 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My GitHub Pages Site</title>
+    <meta charset="UTF-8">
+    <title>Explainable Churn Prediction using SHAP</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f6f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #0a192f;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        section {
+            padding: 40px 80px;
+            background: white;
+            margin: 20px auto;
+            width: 85%;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+        }
+
+        h1, h2 {
+            color: #0a192f;
+        }
+
+        ul {
+            margin-left: 20px;
+        }
+
+        .tech-stack span {
+            display: inline-block;
+            background: #e3eafc;
+            padding: 6px 12px;
+            margin: 5px;
+            border-radius: 20px;
+            font-size: 14px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #0a192f;
+            color: white;
+        }
+
+        a {
+            color: #1f6feb;
+            text-decoration: none;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 18px;
+            background: #1f6feb;
+            color: white;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        .button:hover {
+            background: #1558c0;
+        }
+    </style>
 </head>
 <body>
-    <h1>Hello world!</h1>
-    <p>Welcome to my GitHub Pages site!</p>
+
+<header>
+    <h1>Explainable Churn Prediction using SHAP</h1>
+    <p>Interpretable Machine Learning for Customer Retention Strategy</p>
+</header>
+
+<section>
+    <h2>📌 Project Overview</h2>
+    <p>
+        This project focuses on predicting customer churn using machine learning models 
+        and explaining predictions using SHAP (SHapley Additive Explanations). 
+        The objective is not only to achieve high prediction accuracy but also 
+        to provide transparent, business-interpretable insights for decision-makers.
+    </p>
+</section>
+
+<section>
+    <h2>🎯 Business Problem</h2>
+    <p>
+        Customer churn directly impacts revenue and customer lifetime value. 
+        Organizations need a predictive and interpretable system to:
+    </p>
+    <ul>
+        <li>Identify high-risk customers</li>
+        <li>Understand drivers of churn</li>
+        <li>Design targeted retention strategies</li>
+    </ul>
+</section>
+
+<section>
+    <h2>⚙️ Methodology</h2>
+    <ul>
+        <li>Data Cleaning & Feature Engineering</li>
+        <li>Exploratory Data Analysis (EDA)</li>
+        <li>Model Training (Logistic Regression / Random Forest / XGBoost)</li>
+        <li>Model Evaluation (Accuracy, Precision, Recall, ROC-AUC)</li>
+        <li>Explainability using SHAP (Global & Local Interpretations)</li>
+    </ul>
+</section>
+
+<section>
+    <h2>📊 SHAP Explainability</h2>
+    <p>
+        SHAP values were used to:
+    </p>
+    <ul>
+        <li>Identify top contributing features</li>
+        <li>Explain individual customer predictions</li>
+        <li>Provide feature impact visualization (Summary Plot, Force Plot)</li>
+    </ul>
+
+    <p>
+        Example Insights:
+    </p>
+    <ul>
+        <li>Contract type significantly impacts churn probability</li>
+        <li>Monthly charges positively correlate with churn risk</li>
+        <li>Long-term customers show lower churn contribution scores</li>
+    </ul>
+</section>
+
+<section>
+    <h2>🛠 Tech Stack</h2>
+    <div class="tech-stack">
+        <span>Python</span>
+        <span>Pandas</span>
+        <span>NumPy</span>
+        <span>Scikit-learn</span>
+        <span>XGBoost</span>
+        <span>SHAP</span>
+        <span>Matplotlib</span>
+    </div>
+</section>
+
+<section>
+    <h2>📈 Model Performance</h2>
+    <p>
+        The best-performing model achieved:
+    </p>
+    <ul>
+        <li>Accuracy: 85%+</li>
+        <li>ROC-AUC Score: 0.88+</li>
+        <li>Improved interpretability with SHAP-based explanations</li>
+    </ul>
+</section>
+
+<section>
+    <h2>🚀 Business Impact</h2>
+    <p>
+        By combining predictive modeling with explainable AI:
+    </p>
+    <ul>
+        <li>Improved transparency for stakeholders</li>
+        <li>Enabled data-driven retention campaigns</li>
+        <li>Reduced blind decision-making in churn management</li>
+    </ul>
+</section>
+
+<section>
+    <h2>🔗 GitHub Repository</h2>
+    <p>View full source code, notebooks, and visualizations:</p>
+    <a href="YOUR_GITHUB_REPO_LINK" class="button" target="_blank">View Project on GitHub</a>
+</section>
+
+<footer>
+    <p>© 2026 | Pallavi | Data Science Portfolio</p>
+</footer>
+
 </body>
 </html>
